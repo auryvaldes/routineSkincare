@@ -1,14 +1,29 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "routines": [
+    { "id": 1,
+      "title": "Dry Skin",
+      "image": "https://www.vidasoap.com/wp-content/uploads/2018/01/Skin-Type-Examples3.jpg",
+      "icon": "https://image.flaticon.com/icons/png/512/1271/1271525.png"
+    },
+    { "id": 2,
+      "title": "Mix Skin",
+      "image": "https://www.vidasoap.com/wp-content/uploads/2018/01/Skin-Type-Examples.jpg",
+      "icon": "https://image.flaticon.com/icons/png/512/2545/2545849.png"
+    },
+    { "id": 3, 
+      "title": "Oily Skin",
+      "image": "https://www.vidasoap.com/wp-content/uploads/2018/01/Skin-Type-Examples4.jpg",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGTDsUKHHay2Gzeh6PDQdOHpLqOb8oYxXFMw&usqp=CAU"
+    },
+    { "id": 4, 
+      "title": "Normal Skin",
+      "image": "https://www.vidasoap.com/wp-content/uploads/2018/01/Skin-Type-Examples2.jpg",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6_tQeUMd7mmoz7IFFyFczuuohZP7vpBLxPw&usqp=CAU"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "header": {
+    "title": "Skincare Routine",
+    "image": "https://cdn.shopify.com/s/files/1/0037/7690/5283/files/skincare-routine-vector-illustration.jpg?v=1614231028",
+    "button": "Go to my Skincare"
   }
 }
