@@ -11,6 +11,7 @@ const styles = {
     viewStyle: {
         borderWidth: 1,
         borderColor: 'gainsboro',
+        borderBottomWidth: 0,
         shadowColor: 'back',
         shadowOffSet: {width: 1, height: 1},
         marginRight: 5,
