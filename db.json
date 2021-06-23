@@ -1,62 +1,27 @@
 { 
     "list": [
-   {
-      "skin":"Dry Skin",
+      {
+      "schedule":"Day",
       "routine":[
          {
-            "name":"Day",
+            "name":"Dry Skin",
             "url":"https://www.ford.com/cars/mustang/",
-            "image":"https://lh3.googleusercontent.com/proxy/4aVQmF93PPQg92v9TGTKW2s02rfSFQcPwvMTIDHfJjzlNfrTgpX6RMTjvYgJmSNklq8fTb9KrPhZC5ofLUvqU_-MsNTkx42-JEyXSE576H79tRNtj9L3khvjaIFrSFGY"
-         },
-         {  
-            "name":"Night",
-            "url":"https://www.ford.com/commercial-trucks/f650-f750/",
-            "image":"https://flo.health/uploads/media/sulu-1200x630/06/3426-Skincare%20routine%20order.jpg?v=1-0&inline=1"
-         }
-      ]
-   },
-   {
-      "skin":"Oily Skin",
-      "routine":[
-         {
-            "name":"Day",
-            "url":"https://www.ford.com/cars/mustang/",
-            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqTbgJ2OBfqfomvWYLaX_bzIJl2BMnQiKkaw&usqp=CAU"
+            "image":"https://www.vidasoap.com/wp-content/uploads/2018/01/Skin-Type-Examples3.jpg"
          },
          {
-            "name":"Night",
+            "name":"Oily Skin",
             "url":"https://www.ford.com/commercial-trucks/f650-f750/",
-            "image":"https://wkutalisman.com/wp-content/uploads/2018/02/Skincare.jpg"
-         }
-      ]
-   },
-   {
-      "skin":"Mix Skin",
-      "routine":[
-         {
-            "name":"Day",
-            "url":"https://www.ford.com/cars/mustang/",
-            "image":"https://melonandstarfish.com/product_images/uploaded_images/blog-korean-skin-care-routine-1-morning.jpg"
+            "image":"https://www.vidasoap.com/wp-content/uploads/2018/01/Skin-Type-Examples4.jpg"
          },
          {
-            "name":"Night",
-            "url":"https://www.ford.com/commercial-trucks/f650-f750/",
-            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5lYM9QA0wI-_fP4d97Cpm-50RSm7a00tGNQ&usqp=CAU"
-         }
-      ]
-   },
-   {
-      "skin":"Normal Skin",
-      "routine":[
-         {
-            "name":"Day",
-            "url":"https://www.ford.com/cars/mustang/",
-            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfrNeS_wMy42gtMmyq8GEVBo_yc7FSie9BNg&usqp=CAU"
+            "name":"Mix Skin",
+            "url":"https://www.ford.com/performance/gt/",
+            "image":"https://www.vidasoap.com/wp-content/uploads/2018/01/Skin-Type-Examples.jpg"
          },
-         {
-            "name":"Night",
-            "url":"https://www.ford.com/commercial-trucks/f650-f750/",
-            "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm8Bsz4z4ZqwsQmXIvYYtNeH9WfPcZG_qu6A&usqp=CAU"
+		 {
+            "name":"Normal Skin",
+            "url":"https://www.ford.com/performance/gt/",
+            "image":"https://www.vidasoap.com/wp-content/uploads/2018/01/Skin-Type-Examples2.jpg"
          }
       ]
    }
