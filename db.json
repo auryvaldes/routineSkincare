@@ -1,24 +1,62 @@
-{
-  "routines": [
-    { "id": 1,
-      "title": "Dry Skin",
-      "image": "https://www.vidasoap.com/wp-content/uploads/2018/01/Skin-Type-Examples3.jpg",
-      "icon": "https://image.flaticon.com/icons/png/512/1271/1271525.png"
-    },
-    { "id": 2,
-      "title": "Mix Skin",
-      "image": "https://www.vidasoap.com/wp-content/uploads/2018/01/Skin-Type-Examples.jpg",
-      "icon": "https://image.flaticon.com/icons/png/512/2545/2545849.png"
-    },
-    { "id": 3, 
-      "title": "Oily Skin",
-      "image": "https://www.vidasoap.com/wp-content/uploads/2018/01/Skin-Type-Examples4.jpg",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGTDsUKHHay2Gzeh6PDQdOHpLqOb8oYxXFMw&usqp=CAU"
-    },
-    { "id": 4, 
-      "title": "Normal Skin",
-      "image": "https://www.vidasoap.com/wp-content/uploads/2018/01/Skin-Type-Examples2.jpg",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6_tQeUMd7mmoz7IFFyFczuuohZP7vpBLxPw&usqp=CAU"
-    }
-  ]
-}
+[
+   {
+      "skin":"Dry Skin",
+      "routine":[
+         {
+            "name":"Day",
+            "url":"https://www.ford.com/cars/mustang/",
+            "image":"https://www.ford.com/cmslibs/content/dam/vdm_ford/live/en_us/ford/nameplate/mustang/2019/collections/highlights/3-2/19mst_highlight_thefeel_219.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg"
+         },
+         {
+            "name":"Night",
+            "url":"https://www.ford.com/commercial-trucks/f650-f750/",
+            "image":"https://i.pinimg.com/originals/a8/4c/84/a84c84175bf1c7ed023720e4c390617e.jpg"
+         }
+      ]
+   },
+   {
+      "skin":"Oily Skin",
+      "routine":[
+         {
+            "name":"Day",
+            "url":"https://www.ford.com/cars/mustang/",
+            "image":"https://www.ford.com/cmslibs/content/dam/vdm_ford/live/en_us/ford/nameplate/mustang/2019/collections/highlights/3-2/19mst_highlight_thefeel_219.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg"
+         },
+         {
+            "name":"Night",
+            "url":"https://www.ford.com/commercial-trucks/f650-f750/",
+            "image":"https://i.pinimg.com/originals/a8/4c/84/a84c84175bf1c7ed023720e4c390617e.jpg"
+         }
+      ]
+   },
+   {
+      "skin":"Mis Skin",
+      "routine":[
+         {
+            "name":"Day",
+            "url":"https://www.ford.com/cars/mustang/",
+            "image":"https://www.ford.com/cmslibs/content/dam/vdm_ford/live/en_us/ford/nameplate/mustang/2019/collections/highlights/3-2/19mst_highlight_thefeel_219.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg"
+         },
+         {
+            "name":"Night",
+            "url":"https://www.ford.com/commercial-trucks/f650-f750/",
+            "image":"https://i.pinimg.com/originals/a8/4c/84/a84c84175bf1c7ed023720e4c390617e.jpg"
+         }
+      ]
+   },
+   {
+      "skin":"Normal Skin",
+      "routine":[
+         {
+            "name":"Day",
+            "url":"https://www.ford.com/cars/mustang/",
+            "image":"https://www.ford.com/cmslibs/content/dam/vdm_ford/live/en_us/ford/nameplate/mustang/2019/collections/highlights/3-2/19mst_highlight_thefeel_219.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg"
+         },
+         {
+            "name":"Night",
+            "url":"https://www.ford.com/commercial-trucks/f650-f750/",
+            "image":"https://i.pinimg.com/originals/a8/4c/84/a84c84175bf1c7ed023720e4c390617e.jpg"
+         }
+      ]
+   }
+]
