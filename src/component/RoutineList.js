@@ -1,6 +1,8 @@
 import axios from 'axios';
 import React, {Component} from 'react';
-import {View, Text} from 'react-native';
+import {View} from 'react-native';
+
+import RoutineDetail from './RoutineDetail';
 
 
 class RoutineList extends Component{
@@ -14,7 +16,7 @@ class RoutineList extends Component{
 
     renderList = () => {
         return this.state.routineList.map((skin) => {
-            return <Text>{skin.routine[0].name}</Text>
+            return <RoutineDetail key={skin.routine[0].id} skin={skin}/>
         })
 
     }
