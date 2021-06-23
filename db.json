@@ -1,4 +1,5 @@
-[
+{ 
+    "list": [
    {
       "skin":"Dry Skin",
       "routine":[
@@ -7,7 +8,7 @@
             "url":"https://www.ford.com/cars/mustang/",
             "image":"https://www.ford.com/cmslibs/content/dam/vdm_ford/live/en_us/ford/nameplate/mustang/2019/collections/highlights/3-2/19mst_highlight_thefeel_219.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg"
          },
-         {
+         {  
             "name":"Night",
             "url":"https://www.ford.com/commercial-trucks/f650-f750/",
             "image":"https://i.pinimg.com/originals/a8/4c/84/a84c84175bf1c7ed023720e4c390617e.jpg"
@@ -59,4 +60,4 @@
          }
       ]
    }
-]
+]}
