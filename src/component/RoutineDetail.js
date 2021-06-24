@@ -8,7 +8,10 @@ const RoutineDetail = props => {
     return (
     <Item>
         <ItemSection>
-             <Text>{props.skin.routine[0].name}</Text>
+            <View>
+                <Text>{props.skin.type}</Text>
+                <Text>{props.skin.routine[0].name}</Text>
+            </View>
         </ItemSection>
     </Item>
     );

@@ -1,8 +1,9 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import { View } from 'react-native';
 
 const ItemSection = (props) => {
-    const {viewStyle} = styles
+    const {viewStyle} = styles;
+    
     return <View style={viewStyle}>{props.children}</View>
 }
 

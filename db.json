@@ -1,0 +1,47 @@
+{ 
+    "list": [
+   {
+      "Type":"Tonico",
+      "routine":[
+         {
+            "id": 1,
+            "name":"Dry Skin",
+            "url":"https://www.ford.com/cars/mustang/",
+            "image":"https://www.vidasoap.com/wp-content/uploads/2018/01/Skin-Type-Examples3.jpg"
+         }
+      ]
+   },
+   {
+      "Type":"Serum",
+      "routine":[
+         {
+            "id":2,
+            "name":"Oily Skin",
+            "url":"https://www.ford.com/commercial-trucks/f650-f750/",
+            "image":"https://www.vidasoap.com/wp-content/uploads/2018/01/Skin-Type-Examples4.jpg"
+         }
+      ]
+   },
+   {
+      "Type":"Cream",
+      "routine":[
+         {
+            "id": 3,
+            "name":"Mix Skin",
+            "url":"https://www.ford.com/performance/gt/",
+            "image":"https://www.vidasoap.com/wp-content/uploads/2018/01/Skin-Type-Examples.jpg"
+         }
+      ]
+   },
+   {
+      "Type":"Sum protect",
+      "routine":[
+         {
+            "id": 4,
+            "name":"Normal Skin",
+            "url":"https://www.ford.com/performance/gt/",
+            "image":"https://www.vidasoap.com/wp-content/uploads/2018/01/Skin-Type-Examples2.jpg"
+         }
+      ]
+   }
+]}
