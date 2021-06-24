@@ -9,19 +9,17 @@ const RoutineDetail = props => {
     return (
         <Item>
             <ItemSection>
-                <View style={styles.headerContainer}>
                 <Text>{props.skin.routine[0].name}</Text>
-                </View>
             </ItemSection>
         </Item>
     );
 };
 
-const styles = {
-    headerContainer: {
-        flexDirection: 'column',
-        justifyContent: 'space-between'
-    }
-}
+// const styles = {
+//     headerContainer: {
+//         flexDirection: 'column',
+//         justifyContent: 'space-between'
+//     }
+// }
 
 export default RoutineDetail;
