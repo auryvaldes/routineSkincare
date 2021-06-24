@@ -1,7 +1,7 @@
 { 
     "list": [
    {
-      "Type":"Tonico",
+      "type":"Tonico",
       "routine":[
          {
             "id": 1,
@@ -12,7 +12,7 @@
       ]
    },
    {
-      "Type":"Serum",
+      "type":"Serum",
       "routine":[
          {
             "id":2,
@@ -23,7 +23,7 @@
       ]
    },
    {
-      "Type":"Cream",
+      "type":"Cream",
       "routine":[
          {
             "id": 3,
@@ -34,7 +34,7 @@
       ]
    },
    {
-      "Type":"Sum protect",
+      "type":"Sum protect",
       "routine":[
          {
             "id": 4,
