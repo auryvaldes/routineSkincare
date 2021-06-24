@@ -1,10 +1,8 @@
 import React from 'react';
-import {View} from 'react-native';
+import { View } from 'react-native';
 
-const Item = (props) => {
-    const {viewStyle} = styles;
-
-    return <View style={viewStyle}>{props.children}</View>
+const Item = props => {
+    return <View style={styles.viewStyle}>{props.children}</View>;
 };
 
 const styles = {
@@ -14,6 +12,7 @@ const styles = {
         borderBottomWidth: 0,
         shadowColor: 'back',
         shadowOffSet: {width: 1, height: 1},
+        shadowOpacity: 0.1,
         marginRight: 5,
         marginLeft: 5,
         marginTop: 10

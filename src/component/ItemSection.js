@@ -2,10 +2,8 @@ import React from 'react';
 import { View } from 'react-native';
 
 const ItemSection = (props) => {
-    const {viewStyle} = styles;
-    
-    return <View style={viewStyle}>{props.children}</View>
-}
+    return <View style={styles.viewStyle}>{props.children}</View>;
+};
 
 const styles = {
     viewStyle: {
@@ -16,6 +14,6 @@ const styles = {
         justifyContent: 'flext-start',
         position: 'relative'
     }
-}
+};
 
 export default ItemSection;
