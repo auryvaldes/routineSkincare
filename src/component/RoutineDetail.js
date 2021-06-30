@@ -13,7 +13,6 @@ const RoutineDetail = ({ skin }) => {
         <Item>
             <ItemSection>
                 <View style={headerContainer}>
-                    <Text style={headerText}>{skin.type}</Text>
                     <Text style={headerText}>{skin.routine[0].name}</Text>
                 </View>
             </ItemSection>
@@ -27,7 +26,8 @@ const RoutineDetail = ({ skin }) => {
 
             <ItemSection>
             <Button buttonPress={ () =>{
-                Linking.openURL(skin.routine[0].url);
+                console.log("Hola")
+                {/* Linking.openURL(skin.routine[0].url); */}
             }} />
             </ItemSection>
         </Item>
@@ -47,9 +47,9 @@ const styles = {
     },
 
     imageStyle: {
-        flex: 2,
-        aspectRatio: 2,
-        resizeMode: 'contain',
+        flex:1,
+        aspectRatio: 2.4,
+        resizeMode: 'cover',
     }
 }
 
