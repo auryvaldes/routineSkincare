@@ -3,8 +3,8 @@ import React, {Component} from 'react';
 import {ScrollView} from 'react-native';
 
 import RoutineDetail from './RoutineDetail';
-import Header from './Header'
-
+import Header from './Header';
+import Menu from './Menu'
 
 class RoutineList extends Component{
     state = { routineList:[] };
@@ -27,10 +27,13 @@ class RoutineList extends Component{
 
     render() {
         console.log(this.state);
-        return <ScrollView>
-            <Header/>
-            {this.renderList()}
+        return (
+            <ScrollView>
+                <Menu/>
+                <Header/>
+                {this.renderList()}
             </ScrollView>
+        );
     }
 
     
