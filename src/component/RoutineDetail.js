@@ -1,8 +1,9 @@
 import React from 'react';
-import { View, Text, Image } from 'react-native';
+import { View, Text, Image, Linking } from 'react-native';
 
 import Item from './Item';
 import ItemSection from './ItemSection';
+import Button from './Button';
 
 
 const RoutineDetail = ({ skin }) => {
@@ -22,6 +23,12 @@ const RoutineDetail = ({ skin }) => {
                 style={imageStyle}
                 source={{uri: skin.routine[0].image}}
                 />
+            </ItemSection>
+
+            <ItemSection>
+            <Button buttonPress={ () =>{
+                Linking.openURL(skin.routine[0].url);
+            }} />
             </ItemSection>
         </Item>
     );

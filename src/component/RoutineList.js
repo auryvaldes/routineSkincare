@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 import {ScrollView} from 'react-native';
 
 import RoutineDetail from './RoutineDetail';
+import Header from './Header'
 
 
 class RoutineList extends Component{
@@ -16,7 +17,9 @@ class RoutineList extends Component{
 
     renderList = () => {
         return this.state.routineList.map((skin) => {
-            return <RoutineDetail key={skin.routine[0].id} skin={skin}/>
+            return (
+                <RoutineDetail key={skin.routine[0].id} skin={skin}/>
+            );
         })
 
     }
@@ -24,18 +27,13 @@ class RoutineList extends Component{
 
     render() {
         console.log(this.state);
-        return <ScrollView style={styles.scrollView}>{this.renderList()}</ScrollView>
+        return <ScrollView>
+            <Header/>
+            {this.renderList()}
+            </ScrollView>
     }
 
     
-}
-
-const styles = {
-
-    scrollView: {
-        height: '70%',
-        width: '100%',
-    }   
 }
 
 export default RoutineList;
