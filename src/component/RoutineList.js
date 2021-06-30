@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, {Component} from 'react';
-import {View} from 'react-native';
+import {ScrollView} from 'react-native';
 
 import RoutineDetail from './RoutineDetail';
 
@@ -24,8 +24,18 @@ class RoutineList extends Component{
 
     render() {
         console.log(this.state);
-        return <View>{this.renderList()}</View>
+        return <ScrollView style={styles.scrollView}>{this.renderList()}</ScrollView>
     }
+
+    
+}
+
+const styles = {
+
+    scrollView: {
+        height: '70%',
+        width: '100%',
+    }   
 }
 
 export default RoutineList;

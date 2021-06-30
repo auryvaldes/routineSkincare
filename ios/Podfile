@@ -12,6 +12,8 @@ target 'skincare' do
     :hermes_enabled => false
   )
 
+  pod 'react-native-multi-share', :path => '../node_modules/react-native-multi-share'
+
   target 'skincareTests' do
     inherit! :complete
     # Pods for testing

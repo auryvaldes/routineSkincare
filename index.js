@@ -13,4 +13,5 @@ const App = () => {
     ); 
 }
 
+
 AppRegistry.registerComponent('skincare', () => App);

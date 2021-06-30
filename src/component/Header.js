@@ -15,12 +15,12 @@ const Header = () => {
 
 const styles = {
     viewStyle: {
-        aspectRatio: 2,
-        resizeMode: 'contain'
+        position: 'relative'
     },
-    
+   
     imageStyle: {
-        flex: 1
+        aspectRatio: 2,
+        resizeMode: 'contain',
     }
 }
 

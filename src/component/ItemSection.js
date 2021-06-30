@@ -11,6 +11,7 @@ const styles = {
         borderColor: 'gainsboro',
         padding: 5,
         flexDirection: 'row',
+        justifyContent: 'flex-start',
         position: 'relative'
     }
 };
