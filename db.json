@@ -6,7 +6,7 @@
          {
             "id": 1,
             "name":"Dry Skin",
-            "url":"https://www.ford.com/cars/mustang/",
+            "url":"https://www.vidasoap.com/what-is-my-skin-type/",
             "image":"https://i.imgur.com/A1FbkUx.jpg"
          }
       ]
@@ -17,7 +17,7 @@
          {
             "id":2,
             "name":"Oily Skin",
-            "url":"https://www.ford.com/commercial-trucks/f650-f750/",
+            "url":"https://www.vidasoap.com/what-is-my-skin-type/",
             "image":"https://i.imgur.com/Ms5QdaU.jpg"
          }
       ]
@@ -28,7 +28,7 @@
          {
             "id": 3,
             "name":"Mix Skin",
-            "url":"https://www.ford.com/performance/gt/",
+            "url":"https://www.vidasoap.com/what-is-my-skin-type/",
             "image":"https://i.imgur.com/zDffR79.jpg"
          }
       ]
@@ -39,7 +39,7 @@
          {
             "id": 4,
             "name":"Normal Skin",
-            "url":"https://www.ford.com/performance/gt/",
+            "url":"https://www.vidasoap.com/what-is-my-skin-type/",
             "image":"https://i.imgur.com/o8TAN1E.jpg"
          }
       ]
