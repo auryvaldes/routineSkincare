@@ -29,6 +29,7 @@ const styles = {
     container: {
         flex: 1,
         alignItems: 'center',
+        marginBottom: 30
     }
 };
 

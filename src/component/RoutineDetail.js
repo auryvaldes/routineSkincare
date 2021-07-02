@@ -37,13 +37,19 @@ const RoutineDetail = ({ skin }) => {
 const styles = {
     headerContainer: {
         flexDirection: 'column',
-        justifyContent: 'space-between'
+        flex:1, 
+        justifyContent: 'center', 
+        alignItems: 'center',
+        backgroundColor: '#fff'
     },
-
+    
     headerText: {
-        fontSize: 18,
-        fontWeight: '500',
-        textTransform: 'uppercase'
+        fontSize: 33,
+        fontFamily: 'serif',
+        fontWeight: '700',
+        textTransform: 'uppercase',
+        textAlign:'center',
+        color: '#7FB2B6'
     },
 
     imageStyle: {
