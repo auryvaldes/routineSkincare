@@ -49,7 +49,7 @@ const styles = {
         fontWeight: '700',
         textTransform: 'uppercase',
         textAlign:'center',
-        color: '#7FB2B6'
+        color: '#75a5aa'
     },
 
     imageStyle: {

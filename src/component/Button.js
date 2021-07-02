@@ -8,7 +8,7 @@ const Button = (props) => {
     return (
         <View style={viewStyle}>
             <Ripple 
-            rippleColor='#fff'
+            rippleColor='#efaca0'
             rippleOpacity={0.9}
             rippleDuration={2000}
             rippleSize={500}
@@ -27,17 +27,19 @@ const styles = {
         fontWeight: '600',
         paddingTop: 6,
         paddingBottom: 6,
-        color: '#fff',
+        color: 'black',
         textAlign: 'center'
     },
 
     buttonStyle: {
         width: 200,
         height: 50,
-        backgroundColor: '#FFA384',
+        backgroundColor: '#fff',
         justifyContent: 'center',
         alignItems: 'center',
-        borderRadius: 30
+        borderRadius: 30,
+        borderWidth: 3,
+        borderColor: '#FFA384',
     },
 
     viewStyle: {
